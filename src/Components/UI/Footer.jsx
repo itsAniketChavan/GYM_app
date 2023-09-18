@@ -7,7 +7,9 @@ const Footer = () => {
     const year = new Date().getFullYear()
 
   return (
-    <footer className="Footer">
+    <footer className="Footer"
+    data-aos="fade-up"
+                data-aos-duration="1500">
         <div className="contaner"> 
       <div className="footer_wrapper">
         <div className="footer_box">
@@ -63,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="copyright">
-        copyright - {year} developed by Ani. All rights are reserved.
+        copyright - {year} developed by Aniket, Abhishek, Kuldeep. All rights are reserved.
 
 
       </p>

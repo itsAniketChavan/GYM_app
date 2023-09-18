@@ -16,7 +16,9 @@ const Testimonials = () => {
 
 
             <div class="maincontaier">
-                <div class="containerr">
+                <div class="containerr"
+                data-aos="fade-left"
+                data-aos-duration="1500">
                     <img src={avatar01}
                         alt="" />
                     <h2>Penelope</h2>
@@ -25,7 +27,9 @@ const Testimonials = () => {
                 </div>
 
 
-                <div class="containerr">
+                <div class="containerr"
+                data-aos="fade-up"
+                data-aos-duration="1500">
                     <img src={avatar02}
                         alt="" />
                     <h2>Beatrice</h2>
@@ -35,7 +39,9 @@ const Testimonials = () => {
                 </div>
 
 
-                <div class="containerr">
+                <div class="containerr"
+                data-aos="fade-right"
+                data-aos-duration="1500">
                     <img src={lunges}
                         alt="" />
                     <h2>Josephine</h2>

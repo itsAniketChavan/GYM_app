@@ -5,6 +5,7 @@ import "../../styles/Hero.css";
 import { CgPlayButtonO } from "react-icons/cg";
 import { BsHeartPulse } from "react-icons/bs";
 import { MdOutlineLocationOn } from "react-icons/md";
+   
 
 const Hero = () => {
   return (
@@ -34,12 +35,16 @@ const Hero = () => {
               data-aos-delay="200"
               data-aos-duration="2000"
             >
-              <button className="register__btn">Get Started</button>
+              <button className="register__btn">Get Started
+              
+ 
+              </button>
               <button className="watch__btn">
                 <span>
                   <CgPlayButtonO />
                 </span>
                 watch video
+ 
               </button>
             </div>
           </div>

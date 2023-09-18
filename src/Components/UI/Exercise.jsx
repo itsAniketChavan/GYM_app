@@ -22,7 +22,9 @@ const Ex = () => {
           <div className="exercise_wrapper"
           data-aos="fade-up"
           data-aos-duration="1500">
-              <div className="exercise_item">
+              <div className="exercise_item"
+              data-aos="zoom-in"
+              data-aos-duration="1500">
                 <span className="exercise_icon">
                   <img src="" alt="" />
                 </span>
@@ -41,7 +43,9 @@ const Ex = () => {
 
 
 
-              <div className="exercise_item">
+              <div className="exercise_item"
+              data-aos="zoom-in"
+              data-aos-duration="1500">
                 <span className="exercise_icon">
                   <img src= "" alt="" />
                 </span>
@@ -56,7 +60,9 @@ const Ex = () => {
               </div>
 
 
-              <div className="exercise_item">
+              <div className="exercise_item"
+              data-aos="zoom-in"
+              data-aos-duration="1500">
                 <span className="exercise_icon">
                   <img src= "" alt="" />
                 </span>

@@ -1,5 +1,5 @@
  
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Aos from 'aos'
 
 import './App.css';
@@ -10,6 +10,7 @@ import Sur from './Components/UI/Sur';
 import Pricing from './Components/UI/Pricing';
 import Testimonials from './Components/UI/Testimonials';
 import Footer from './Components/UI/Footer';
+import Register from './Components/UI/Register';
 
 
  
@@ -23,6 +24,9 @@ function App() {
     
 
   },[])
+
+  
+   
   return (
      
      <>
@@ -32,9 +36,12 @@ function App() {
      <Exercise />
     <Sur/>
     <Pricing/>
-   
+    
     <Testimonials/>
     <Footer/>
+    {/* <Register/> */}
+
+     
      </>
      
   );

@@ -9,10 +9,12 @@ const Sur = () => {
         <div className="container">
             <div className="start_wrapper">
                 <div className="start_img">
-                    <img src={male} alt="" />
+                    <img src={male} alt=""data-aos="fade-left"
+              data-aos-duration="1500" />
                 </div>
 
-                <div className="start_content">
+                <div className="start_content"data-aos="fade-right"
+              data-aos-duration="1500">
                     <h2 className="section_title">
                         Ready To Make A <span className="highlights">Change?</span>
                     </h2>
