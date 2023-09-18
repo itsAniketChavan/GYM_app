@@ -7,17 +7,21 @@ import  extended from '../../assets/img/extended.png'
 
 const Ex = () => {
   return (
-    <section id = "Schedule">
+    <section id = "schedule">
 
       <div className="contaner_exercise_contaner">
-          <div className="exercise_top">
+          <div className="exercise_top"
+          data-aos="fade-down"
+          data-aos-duration="1500">
             <h2 className="section_title">Benifits of <span className="highlights">Exercise</span></h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br/> elit   Error, et!</p>
           </div>
 
           {/* exercises list */}
 
-          <div className="exercise_wrapper">
+          <div className="exercise_wrapper"
+          data-aos="fade-up"
+          data-aos-duration="1500">
               <div className="exercise_item">
                 <span className="exercise_icon">
                   <img src="" alt="" />

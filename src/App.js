@@ -1,6 +1,8 @@
  
-import './App.css';
+import { useEffect } from 'react';
+import Aos from 'aos'
 
+import './App.css';
 import Header from "./Components/Header/Header";
 import Hero from "./Components/UI/Hero";
 import Exercise from "./Components/UI/Exercise";
@@ -12,10 +14,15 @@ import Footer from './Components/UI/Footer';
 
  
  
- 
-
- 
 function App() {
+
+  useEffect(()=>
+  {
+
+    Aos.init();
+    
+
+  },[])
   return (
      
      <>

@@ -13,7 +13,7 @@ const nav__links = [
 
     },
     {
-        Path:'#Exercise' ,
+        Path:'#schedule' ,
         display:'Schedule',
         
     },
@@ -29,33 +29,14 @@ const nav__links = [
     }
 ]
 
-const Header = () => {
-    const HeaderRef  = useRef(null)
-    const HeaderFunc = ()=>{
 
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop >80){
+ 
+        
 
-            HeaderRef.current.classList.add('sticky__header');
-
-        }
-        else{
-            HeaderRef.current.classList.remove('sticky__header');
-
-        }
-    };
-
-    useEffect(() =>{
-
-        window.addEventListener('scroll', HeaderFunc);
-
-
-        return ()=> window.addEventListener('scroll', HeaderFunc);
-         
-    },[]);
-
+const Header = () => {  
 
   return (
-     <header className="Header" ref={HeaderRef}>
+     <header className="Header">
         
 
          <div className="container">
@@ -73,7 +54,8 @@ const Header = () => {
                         <ul className="menu" >
                             {
                                 nav__links.map(item =>(
-                                    <li  className="nav__item"> <a href={item.path}>
+                                    <li  className="nav__item"> 
+                                    <a  href={item.path}>
                                         {item.display}</a></li>
                                 ))
                             }
@@ -98,6 +80,7 @@ const Header = () => {
          </div>
      </header>
   )
+
 }
 
 export default Header
