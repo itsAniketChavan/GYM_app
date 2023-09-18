@@ -8,6 +8,7 @@
     color: blue;
     background-color: red;
     font-style: italic;
+    flex-basis: fill;
 }
 /* .container {
     height: 450px;
