@@ -29,7 +29,13 @@ function Register() {
     
     // Display a success message
     setIsRegistered(true);
+    setTimeout(() => {
+      window.location.reload();
+    }, 3000);
+     
   };
+
+ 
 
   return (
     <div>

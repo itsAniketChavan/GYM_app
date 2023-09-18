@@ -8,6 +8,8 @@ import { MdOutlineLocationOn } from "react-icons/md";
    
 
 const Hero = () => {
+
+  
   return (
     <section>
       <div className="container">
@@ -39,6 +41,14 @@ const Hero = () => {
               
  
               </button>
+
+ 
+                 
+             
+
+
+
+
               <button className="watch__btn">
                 <span>
                   <CgPlayButtonO />

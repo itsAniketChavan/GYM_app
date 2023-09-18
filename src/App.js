@@ -1,5 +1,5 @@
  
-import { useState, useEffect } from 'react';
+import { useState, useEffect , Component} from 'react';
 import Aos from 'aos'
 
 import './App.css';
@@ -25,8 +25,14 @@ function App() {
 
   },[])
 
+//   const [showRegistration, setShowRegistration] = useState(false);
+// 
+//   const handleRegistrationClick = () => {
+//     setShowRegistration(true);
+//   };
+
+ 
   
-   
   return (
      
      <>
@@ -39,9 +45,32 @@ function App() {
     
     <Testimonials/>
     <Footer/>
-    {/* <Register/> */}
+    
 
      
+    {/* <div>
+      {showRegistration ? (
+        <Register />  
+      ) : (
+        <div>
+          <Header /> 
+          <button className = "Register" onClick={handleRegistrationClick}>Register</button>
+     <Hero/>
+     <Exercise />
+    <Sur/>
+    <Pricing/>
+    
+    <Testimonials/>
+    <Footer/>
+           
+        </div>
+      )}
+    </div> */}
+
+
+ 
+
+
      </>
      
   );

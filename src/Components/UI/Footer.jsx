@@ -8,8 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="Footer"
-    data-aos="fade-up"
-                data-aos-duration="1500">
+    >
         <div className="contaner"> 
       <div className="footer_wrapper">
         <div className="footer_box">

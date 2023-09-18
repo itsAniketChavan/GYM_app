@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef,useState } from "react";
 import "../../styles/Header.css";
 import logo from "../../assets/img/dumble.png";
-
  
 
 import { AiOutlineMenu } from "react-icons/ai";
@@ -25,9 +24,12 @@ const nav__links = [
   },
 ];
 
+
+  
+ 
 const Header = () => {
    
-
+  
     
 
   return (
@@ -56,8 +58,11 @@ const Header = () => {
           {/*Nav Right*/}
 
           <div className="nav__right">
+
+
             <button className="Register_btn">Register</button>
-            
+             
+
             <span className="mobile_menu">
               {" "}
               <AiOutlineMenu />
