@@ -8,12 +8,16 @@
     /* margin-top: 10px; */
 }
 
+.containerr{
+    border: 1px solid white;
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+}
 .containerr img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
     margin-left: 40px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     box-shadow:  rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
@@ -23,6 +27,9 @@
     padding: 20px 100px;
 }
 
+.containerr p{
+    padding: 20px 20px; /* top-bottom & left-right */
+}
 /* h1{
     padding-left: 600px;
     color: blue;
@@ -41,3 +48,4 @@
     padding-bottom: 15px;
     color: blue;
 }
+

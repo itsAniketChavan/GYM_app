@@ -8,7 +8,7 @@ import '../../styles/Testomonials1.css'
 const Testimonials = () => {
     return (
         <div>
-
+                
             <div className="testimonials">
                 <h1>Testimonials</h1>
                 <p>Lorem ipsum dolor sit amet c repellendus dolorem ut repellat.</p>
