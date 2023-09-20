@@ -67,18 +67,23 @@
     column-gap: 1.5rem;
 }
 
-.Register_btn{
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    font-family: var(--font-name);
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
+.Register_btn {
+     
+    background-color: blue; /* Set the background color to blue */
+    color: white; /* Set the text color to white */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    
 }
+
+/* Add this CSS to change the button style on hover */
+.Register_btn:hover {
+    background-color: darkblue; /* Change the background color on hover */
+}
+ 
+
 
 .mobile_menu{
     color: black;
@@ -86,7 +91,7 @@
     cursor: pointer;
      
 }
-.sticky__header{
+.Header{
     width:100%;
     position:sticky;
     top :0;
@@ -100,3 +105,5 @@
 {
     color: blue;
 }
+
+ 

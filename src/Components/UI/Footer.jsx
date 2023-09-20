@@ -7,7 +7,8 @@ const Footer = () => {
     const year = new Date().getFullYear()
 
   return (
-    <footer className="Footer">
+    <footer className="Footer"
+    >
         <div className="contaner"> 
       <div className="footer_wrapper">
         <div className="footer_box">
@@ -20,7 +21,7 @@ const Footer = () => {
         <br />
         <p>
             
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, rem.
+        At Fitbody Gym, we're more than just a place to work out; we're a community dedicated to helping you achieve your health and fitness goals.
         </p>
         </div>
 
@@ -63,7 +64,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="copyright">
-        copyright - {year} developed by Ani. All rights are reserved.
+        copyright - {year} developed by Aniket, Abhishek, Kuldeep. All rights are reserved.
 
 
       </p>

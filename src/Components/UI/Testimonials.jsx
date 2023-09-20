@@ -11,12 +11,14 @@ const Testimonials = () => {
                 
             <div className="testimonials">
                 <h1>Testimonials</h1>
-                <p>Lorem ipsum dolor sit amet c repellendus dolorem ut repellat.</p>
+                <p>Discover the inspiring journeys of our members as they share their experiences and successes at our gym. From achieving fitness goals to transforming their lives, these testimonials highlight the real impact of our training programs, expert guidance, and supportive community. </p>
             </div>
 
 
             <div class="maincontaier">
-                <div class="containerr">
+                <div class="containerr"
+                data-aos="fade-left"
+                data-aos-duration="1500">
                     <img src={avatar01}
                         alt="" />
                     <h2>Penelope</h2>
@@ -25,7 +27,9 @@ const Testimonials = () => {
                 </div>
 
 
-                <div class="containerr">
+                <div class="containerr"
+                data-aos="fade-up"
+                data-aos-duration="1500">
                     <img src={avatar02}
                         alt="" />
                     <h2>Beatrice</h2>
@@ -35,7 +39,9 @@ const Testimonials = () => {
                 </div>
 
 
-                <div class="containerr">
+                <div class="containerr"
+                data-aos="fade-right"
+                data-aos-duration="1500">
                     <img src={lunges}
                         alt="" />
                     <h2>Josephine</h2>
