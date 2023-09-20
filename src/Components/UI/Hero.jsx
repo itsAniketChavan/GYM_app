@@ -1,15 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 import heroImg from "../../assets/img/gym-02.png";
 import dumbleIcon from "../../assets/img/d1.png";
 import "../../styles/Hero.css";
 import { CgPlayButtonO } from "react-icons/cg";
 import { BsHeartPulse } from "react-icons/bs";
 import { MdOutlineLocationOn } from "react-icons/md";
+ 
    
 
-const Hero = () => {
+ 
 
-  
+
+
+const Hero = () => {
+   
   return (
     <section id = "hero"   className="herosection" >
       <div className="container">
@@ -35,10 +39,9 @@ const Hero = () => {
               data-aos-duration="2000"
             >
               <button className="register__btn">Get Started
-              
- 
               </button>
  
+
 
               <button className="watch__btn">
                 <span>
@@ -47,6 +50,9 @@ const Hero = () => {
                 watch video
  
               </button>
+
+ 
+
             </div>
           </div>
 
