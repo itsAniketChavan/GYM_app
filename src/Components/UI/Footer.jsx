@@ -21,7 +21,7 @@ const Footer = () => {
         <br />
         <p>
             
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, rem.
+        At Fitbody Gym, we're more than just a place to work out; we're a community dedicated to helping you achieve your health and fitness goals.
         </p>
         </div>
 

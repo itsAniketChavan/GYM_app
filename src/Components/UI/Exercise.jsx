@@ -7,14 +7,14 @@ import  extended from '../../assets/img/extended.png'
 
 const Ex = () => {
   return (
-    <section id = "schedule">
+    <section id = "schedule"   className="scheduleSection">
 
       <div className="contaner_exercise_contaner">
           <div className="exercise_top"
           data-aos="fade-down"
           data-aos-duration="1500">
             <h2 className="section_title">Benifits of <span className="highlights">Exercise</span></h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br/> elit   Error, et!</p>
+            <p>Regular exercise offers a multitude of benefits, including improved physical fitness,<br /> reduced stress, and better sleep quality.It plays a crucial role in maintaining a healthy <br /> body and mind, contributing to an overall higher quality of life</p>
           </div>
 
           {/* exercises list */}
@@ -31,7 +31,7 @@ const Ex = () => {
 
                 <div className="exercise_content">
                   <h4>Increased flexibility</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  <p>Increased flexibility is a key advantage of regular exercise. <br /> Maintains Stretching and flexibility of body.
 
                   </p>
                 </div>
@@ -52,7 +52,7 @@ const Ex = () => {
 
                 <div className="exercise_content">
                   <h4>Healthy Life</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  <p>A healthy life encompasses a holistic approach to well-being, <br />including physical, mental, and emotional aspects.
 
                   </p>
                 </div>
@@ -69,7 +69,7 @@ const Ex = () => {
 
                 <div className="exercise_content">
                   <h4>Reducing Blood Pressure</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  <p> Regular exercise, such as brisk walking or cycling,<br /> can aid in lowering hypertension. Additionally, manages  stress 
                   </p>
                 </div>
 

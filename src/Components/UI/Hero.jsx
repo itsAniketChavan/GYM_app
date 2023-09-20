@@ -11,7 +11,7 @@ const Hero = () => {
 
   
   return (
-    <section>
+    <section id = "hero"   className="herosection" >
       <div className="container">
         <div className="hero__wrapper">
           {/* hero COntent */}
@@ -26,10 +26,7 @@ const Hero = () => {
             </h2>
 
             <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              architecto deleniti culpa fugiat inventore. Beatae, accusamus. Sit
-              quasi rerum omnis illum. Vitae nam nostrum adipisci non ullam
-              debitis dolor voluptatem!
+            Exercise indeed plays a pivotal role in maintaining a healthy lifestyle. Regular physical activity not only improves physical fitness but also contributes to mental well-being. Incorporating exercise into your routine is a fundamental step towards achieving and sustaining a healthier life.
             </p>
             <div
               className="hero__btns"
@@ -41,13 +38,7 @@ const Hero = () => {
               
  
               </button>
-
  
-                 
-             
-
-
-
 
               <button className="watch__btn">
                 <span>

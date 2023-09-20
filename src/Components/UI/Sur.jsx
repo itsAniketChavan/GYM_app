@@ -4,7 +4,7 @@ import male from '../../assets/img/male.jpg'
 
 const Sur = () => {
   return (
-    <section>
+    <section id = "Sur" className="SurSection">
 
         <div className="container">
             <div className="start_wrapper">
@@ -18,7 +18,7 @@ const Sur = () => {
                     <h2 className="section_title">
                         Ready To Make A <span className="highlights">Change?</span>
                     </h2>
-                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque in vero, vitae blanditiis sint animi, ipsam porro dolore veritatis hic ipsum consequuntur quod quam corrupti assumenda magnam voluptas incidunt explicabo.</p>
+                     <p>Discover a healthier, stronger, and happier you at our gym! Our expert trainers, top-notch facilities, and vibrant fitness community await you. Join us today to start your journey to a better, more active life.</p>
 
                      <button className="register_btn">Get Started</button>
                 </div>

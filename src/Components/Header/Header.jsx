@@ -1,7 +1,7 @@
 import React, { useEffect, useRef,useState } from "react";
 import "../../styles/Header.css";
 import logo from "../../assets/img/dumble.png";
- 
+import { Link } from "react-scroll";
 
 import { AiOutlineMenu } from "react-icons/ai";
 
@@ -10,14 +10,30 @@ const nav__links = [
     Path: "#",
     display: "Home",
   },
+
+   
+
+
+
   {
-    Path: "#schedule",
+    Path: "#",
     display: "Schedule",
+ 
   },
+
+ 
+
+
+
   {
     Path: "#",
     display: "Classes",
   },
+
+   
+
+
+
   {
     Path: "#",
     display: "Pricing",
@@ -48,9 +64,11 @@ const Header = () => {
           <div className="navigation">
             <ul className="menu">
               {nav__links.map((item) => (
-                <li className="nav__item">
+                <li className="nav__item"> 
                   <a href={item.path}>{item.display}</a>
-                </li>
+                  
+                
+                 </li>
               ))}
             </ul>
           </div>
@@ -75,3 +93,9 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+
+
+ 

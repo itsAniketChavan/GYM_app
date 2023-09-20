@@ -11,7 +11,7 @@ const Pricing = () => {
                 <h2 className="section_title">
                     Gym <span className="hightlights">Pricing </span>Plan</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing <br />elit. Quidem nesciunt at odit laborum facilis non voluptatibus repellat, aliquam iusto earum!
+                    All plans include access to our experienced trainers, clean and safe workout environments, and a supportive fitness community. Choose the plan that best fits your fitness goals and lifestyle, and let's embark on this journey to better health together!
                         </p>
                  
             </div>

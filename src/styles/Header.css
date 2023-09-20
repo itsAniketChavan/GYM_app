@@ -91,7 +91,7 @@
     cursor: pointer;
      
 }
-.sticky__header{
+.Header{
     width:100%;
     position:sticky;
     top :0;
@@ -105,3 +105,5 @@
 {
     color: blue;
 }
+
+ 
