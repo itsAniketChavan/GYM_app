@@ -38,14 +38,17 @@ const Hero = () => {
               data-aos-delay="200"
               data-aos-duration="2000"
             >
-              <button className="register__btn">Get Started
-              </button>
+
+              <button className="register__btn">Get Started</button>
+               
+              
  
               <button className="watch__btn">
                 <span>
                   <CgPlayButtonO />
                 </span>
                 watch video
+ 
  
               </button>
 

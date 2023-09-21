@@ -8,7 +8,7 @@ import '../../styles/Testomonials1.css'
 const Testimonials = () => {
     return (
         <div>
-
+                
             <div className="testimonials">
                 <h1>Testimonials</h1>
                 <p>Discover the inspiring journeys of our members as they share their experiences and successes at our gym. From achieving fitness goals to transforming their lives, these testimonials highlight the real impact of our training programs, expert guidance, and supportive community. </p>
