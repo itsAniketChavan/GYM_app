@@ -1,7 +1,7 @@
 import React, { useEffect, useRef,useState } from "react";
 import "../../styles/Header.css";
 import logo from "../../assets/img/dumble.png";
-import { Link } from "react-scroll";
+ 
 
 import { AiOutlineMenu } from "react-icons/ai";
 
