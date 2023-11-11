@@ -12,4 +12,7 @@
 ### A] Footer
 
 ## ReactJs important Packages used -
+### 1] React-Router-Dom
+### 1] React-icons
+ 
 
