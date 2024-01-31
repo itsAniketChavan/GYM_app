@@ -3,71 +3,153 @@ import "../../styles/Footer.css";
 import d1 from "../../assets/img/d1.png";
 
 const Footer = () => {
-
-    const year = new Date().getFullYear()
+  const year = new Date().getFullYear();
 
   return (
-    <footer className="Footer"
-    >
-        <div className="contaner"> 
-      <div className="footer_wrapper">
-        <div className="footer_box">
-            <div className="logo"> 
-          <div className="logo_img">
-            <img src="" alt="" />
+    <footer className="Footer">
+      <div className="contaner">
+        <div className="footer_wrapper">
+          <div className="footer_box">
+            <div className="logo">
+              <div className="logo_img">
+                <img src="" alt="" />
+              </div>
+              <h2>FitBody</h2>
+            </div>
+            <br />
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>{" "}
+            <p>
+              At Fitbody Gym, we're more than just a place to work out; we're a
+              community dedicated to helping you achieve your health and fitness
+              goals.
+            </p>
           </div>
-          <h2>FitBody</h2>
-        </div>
-        <br />
-        <p>
-            
-        At Fitbody Gym, we're more than just a place to work out; we're a community dedicated to helping you achieve your health and fitness goals.
-        </p>
-        </div>
 
-        <div className="footer_box">
+          <div className="footer_box">
             <h4 className="footer_title">Company</h4>
 
-                <ul className="footer_links">
-                    <li><a href="#">Our programs</a></li>
-                    <li><a href="#">Our Plans</a></li>
-                    <li><a href="#">Become a member</a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-        </div>
+            <ul className="footer_links">
+              <li>
+                <a href="#">Our programs</a>
+              </li>
+              <li>
+                <a href="#">Our Plans</a>
+              </li>
+              <li>
+                <a href="#">Become a member</a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div>
 
-
-        <div className="footer_box">
+          <div className="footer_box">
             <h4 className="footer_title">Quick Links</h4>
 
-                <ul className="footer_links">
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">support</a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-        </div>
+            <ul className="footer_links">
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">support</a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div>
 
-
-
-
-
-        <div className="footer_box">
+          <div className="footer_box">
             <h4 className="footer_title">Quick Links</h4>
 
-                <ul className="footer_links">
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">support</a></li>
-                    <li><a href="#"></a></li>
-                </ul>
+            <ul className="footer_links">
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">support</a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <p className="copyright">
-        copyright - {year} developed by Aniket, Abhishek, Kuldeep. All rights are reserved.
-
-
-      </p>
+        <p className="copyright">
+          copyright - {year} developed by Aniket, Abhishek, Kuldeep. All rights
+          are reserved.
+        </p>
       </div>
     </footer>
   );
